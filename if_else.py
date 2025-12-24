@@ -1,5 +1,5 @@
 age = int(input("nhập tuổi: "))
 if age >= 18:
-    print("Đủ tuổi")
+    print(True)
 else:
-    print("chưa đủ tuổi")
+    print(False)
