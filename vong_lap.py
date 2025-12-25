@@ -18,3 +18,20 @@ x = 1
 while x < 10:
     x = x + 1
     print(x)
+
+print("---Bài tập bảng cửu chương---")
+
+n = int(input("Nhập số n: "))
+
+for i in range(1,11):
+    print(n, "x",i,"=",i*n)
+
+print("--- đếm in happy new years ---")
+
+import time
+
+for i in range(10, 0, -2):
+    print(i)
+    time.sleep(1)
+
+print("HAPPY NEW YEAR!")
